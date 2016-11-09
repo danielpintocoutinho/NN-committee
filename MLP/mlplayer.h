@@ -1,7 +1,7 @@
 #ifndef __MLPLAYER_H__
 #define __MLPLAYER_H__
 
-#include "../templateDefinitions.h"
+#include "../Common/templateDefinitions.h"
 
 template <neuronTemplate Neuron, activationTemplate Activation, class Type>
 class MLPLayer

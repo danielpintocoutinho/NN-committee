@@ -6,8 +6,8 @@
 #include <algorithm>
 #include <vector>
 
-#include "../templateDefinitions.h"
-#include "activationfunction.h"
+#include "../Common/templateDefinitions.h"
+#include "../Common/activationfunction.h"
 
 #define INFINITE DBL_MAX
 

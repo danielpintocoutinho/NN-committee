@@ -1,37 +1,34 @@
-#include "committee.h"
+#include "Committee/committee.h"
+#include "Committee/averagecombiner.h"
+#include "Committee/simpletraining.h"
+#include "Committee/generaltraining.h"
+#include "Committee/generalvoting.h"
+#include "Committee/threevotingcombiner.h"
+#include "Committee/threefilteringtraining.h"
+#include "Committee/clusteringtraining.h"
 
+#include "Common/normalize.cpp"
+#include "Common/euclidiandistance.h"
+#include "Common/gaussianactivationfunction.h"
+#include "Common/linearactivationfunction.h"
+#include "Common/logisticactivationfunction.h"
 
-#include "../Kohonen/euclidiandistance.h"
-#include "../Kohonen/kohonenneuron.h"
-#include "../Kohonen/gaussianneighborhood.h"
-#include "../Kohonen/kohonen.h"
+#include "Input/input.cpp"
+#include "Output/output.cpp"
 
-#include "../RBF/gaussianactivationfunction.h"
-#include "../RBF/linearactivationfunction.h"
-#include "../RBF/rbfhiddenneuron.h"
-#include "../RBF/rbfoutputneuron.h"
-#include "../RBF/rbfhiddenlayer.h"
-#include "../RBF/rbfoutputlayer.h"
-#include "../RBF/rbfnetwork.h"
+#include "Kohonen/kohonenneuron.h"
+#include "Kohonen/gaussianneighborhood.h"
+#include "Kohonen/kohonen.h"
 
-#include "../MLP/logisticactivationfunction.h"
-#include "../MLP/mlplayer.h"
-#include "../MLP/mlpneuron.h"
-#include "../MLP/mlp.h"
+#include "RBF/rbfhiddenneuron.h"
+#include "RBF/rbfoutputneuron.h"
+#include "RBF/rbfhiddenlayer.h"
+#include "RBF/rbfoutputlayer.h"
+#include "RBF/rbfnetwork.h"
 
-
-#include "../Input/input.cpp"
-#include "../Output/output.cpp"
-
-#include "averagecombiner.h"
-#include "simpletraining.h"
-#include "generaltraining.h"
-#include "generalvoting.h"
-#include "threevotingcombiner.h"
-#include "threefilteringtraining.h"
-#include "clusteringtraining.h"
-
-#include "../normalize.cpp"
+#include "MLP/mlplayer.h"
+#include "MLP/mlpneuron.h"
+#include "MLP/mlp.h"
 
 
 int main()

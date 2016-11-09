@@ -1,29 +1,28 @@
-#include "committee.h"
+#include "Committee/committee.h"
+#include "Committee/averagecombiner.h"
+#include "Committee/simpletraining.h"
+#include "Committee/generaltraining.h"
+#include "Committee/generalvoting.h"
+#include "Committee/proximitycombiner.h"
+#include "Committee/threevotingcombiner.h"
+#include "Committee/threefilteringtraining.h"
+#include "Committee/clusteringtraining.h"
 
-#include "../MLP/logisticactivationfunction.h"
-#include "../MLP/mlplayer.h"
-#include "../MLP/mlpneuron.h"
-#include "../MLP/mlp.h"
+#include "Common/normalize.cpp"
+#include "Common/logisticactivationfunction.h"
+#include "Common/euclidiandistance.h"
 
-#include "../KohonenLight/euclidiandistance.h"
-#include "../KohonenLight/kohonenneuron.h"
-#include "../KohonenLight/gaussianneighborhood.h"
-#include "../KohonenLight/kohonen.h"
+#include "MLP/mlplayer.h"
+#include "MLP/mlpneuron.h"
+#include "MLP/mlp.h"
 
+#include "KohonenLight/kohonenneuron.h"
+#include "KohonenLight/gaussianneighborhood.h"
+#include "KohonenLight/kohonen.h"
 
-#include "../Input/input.cpp"
-#include "../Output/output.cpp"
+#include "Input/input.cpp"
+#include "Output/output.cpp"
 
-#include "averagecombiner.h"
-#include "simpletraining.h"
-#include "generaltraining.h"
-#include "generalvoting.h"
-#include "proximitycombiner.h"
-#include "threevotingcombiner.h"
-#include "threefilteringtraining.h"
-#include "clusteringtraining.h"
-
-#include "../normalize.cpp"
 
 
 int main()

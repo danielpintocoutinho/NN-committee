@@ -1,10 +1,11 @@
 #ifndef __RBFOUTPUTNEURON_H__
 #define __RBFOUTPUTNEURON_H__
 
-#include "../templateDefinitions.h"
-#include "activationfunction.h"
+
 #include <cstdlib>
 
+#include "../Common/templateDefinitions.h"
+#include "../Common/activationfunction.h"
 
 #define FACTOR 10000
 

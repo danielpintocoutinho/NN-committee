@@ -276,7 +276,7 @@ int main()
 	cout << "Tamanho: " << classes.size() << " - i: " << i << endl;
 	
 	Input<double> littleInput;
-	littleInput.readTrainingData("iris.data", true);
+	littleInput.readTrainingData("../Datasets/iris.data", true);
 	littleInput.printTrain();
 	littleInput.printTrainClasses();
 	return 0;

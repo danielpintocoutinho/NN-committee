@@ -3,9 +3,8 @@
 
 #include <cstdlib>
 
-#include "../templateDefinitions.h"
-#include "distance.h"
-
+#include "../Common/templateDefinitions.h"
+#include "../Common/distance.h"
 
 
 #define FACTOR 10000

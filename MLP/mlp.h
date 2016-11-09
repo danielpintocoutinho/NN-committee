@@ -1,10 +1,13 @@
 #ifndef __MLP_H__
 #define __MLP_H__
 
-#include "../network.h"
-#include "../templateDefinitions.h"
 #include <iostream>
 #include <cmath>
+
+#include "../Common/network.h"
+#include "../Common/templateDefinitions.h"
+
+
 using namespace std;
 
 template <layerTemplate Layer, neuronTemplate Neuron, activationTemplate Activation, class Type>

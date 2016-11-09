@@ -1,9 +1,9 @@
 #ifndef __RBFNETWORK_H__
 #define __RBFHNETWORK_H__
 
-#include "../normalize.cpp"
-#include "../network.h"
-#include "../templateDefinitions.h"
+#include "../Common/normalize.cpp"
+#include "../Common/network.h"
+#include "../Common/templateDefinitions.h"
 
 
 template < layerTemplate LayerHidden, 

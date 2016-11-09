@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "../templateDefinitions.h"
+#include "../Common/templateDefinitions.h"
 
 using namespace std;
 

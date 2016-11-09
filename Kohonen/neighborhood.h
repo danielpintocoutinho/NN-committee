@@ -2,8 +2,9 @@
 #define __NEIGHBORHOOD_H__
 
 #include <iostream>
-#include "../templateDefinitions.h"
 #include <vector>
+
+#include "../Common/templateDefinitions.h"
 
 using namespace std;
 

@@ -7,7 +7,7 @@
 #include <queue>
 
 #include "neighborhood.h"
-#include "../network.h"
+#include "../Common/network.h"
 
 #define INFINITE DBL_MAX
 
